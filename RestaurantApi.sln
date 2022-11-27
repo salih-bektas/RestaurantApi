@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApi", "RestaurantApi\RestaurantApi.csproj", "{BCB05BF0-5B23-4C69-85B2-EDC961CA79F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3DC6609F-4E1F-4DC0-91C3-102B854AF0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{7E37F613-E5FA-4039-B944-19832915749D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB05BF0-5B23-4C69-85B2-EDC961CA79F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB05BF0-5B23-4C69-85B2-EDC961CA79F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB05BF0-5B23-4C69-85B2-EDC961CA79F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB05BF0-5B23-4C69-85B2-EDC961CA79F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC6609F-4E1F-4DC0-91C3-102B854AF0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC6609F-4E1F-4DC0-91C3-102B854AF0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC6609F-4E1F-4DC0-91C3-102B854AF0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC6609F-4E1F-4DC0-91C3-102B854AF0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E37F613-E5FA-4039-B944-19832915749D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E37F613-E5FA-4039-B944-19832915749D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E37F613-E5FA-4039-B944-19832915749D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E37F613-E5FA-4039-B944-19832915749D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestaurantApi</name>
+    </assembly>
+    <members>
+        <member name="M:RestaurantApi.Controllers.MenuController.Get">
+            <summary>
+            Get Menu with Sections and Products 
+            </summary>
+            <returns>Menu</returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.Get(System.DateTime)">
+            <summary>
+            Get list of Menus for a date
+            </summary>
+            <param name="date"></param>
+            <returns>List of Menu</returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.Get(System.Guid)">
+            <summary>
+            Get Menu by an Id
+            </summary>
+            <param name="id"></param>
+            <returns>List of Menu</returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.CreateMenu(RestaurantApi.Models.MenuDto)">
+            <summary>
+            Create a Menu with selected Sections
+            </summary>
+            <param name="menuDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.Delete(System.Guid)">
+            <summary>
+            Deletes menu with given Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.UpdateMenu(System.Guid,RestaurantApi.Models.MenuDto)">
+            <summary>
+            Update Menu
+            </summary>
+            <param name="id"></param>
+            <param name="menuDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.CreateSection(System.Guid,RestaurantApi.Models.SectionCreateDto)">
+            <summary>
+            Creates a Section. Section has to be related to a Menu 
+            </summary>
+            <param name="menuId">Related Menu Id</param>
+            <param name="sectionDto">Section parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.Sections(System.Guid)">
+            <summary>
+            Returns list of Sections for a Menu
+            </summary>
+            <param name="menuId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.Sections">
+            <summary>
+            Returns list of all Sections
+            </summary>
+            <returns>List of Sections</returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.UpdateSection(System.Guid,RestaurantApi.Models.SectionUpdateDto)">
+            <summary>
+            Updated Section - Products should be valid for a successful update
+            </summary>
+            <param name="id"></param>
+            <param name="sectionUpdateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.Products">
+            <summary>
+            Returns list of Products.
+            </summary>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.Product(System.Guid)">
+            <summary>
+            Return Product with given id.
+            </summary>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.CreateProduct(RestaurantApi.Models.ProductCreateDto)">
+            <summary>
+            Creates a Product.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/menu/product
+                {        
+                  "price": 64.0,
+                  "name": "Tartine Lunch Box with Mozzarella",
+                  "description": "Tartine description"        
+                }
+            </remarks>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.DeleteProduct(System.Guid)">
+            <summary>
+            Deletes Product with id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.MenuController.UpdateProduct(System.Guid,RestaurantApi.Models.ProductUpdateDto)">
+            <summary>
+            Updates the Product
+            </summary>
+            <param name="id"></param>
+            <param name="productUpdateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.OrderController.Get">
+            <summary>
+            Get list or Orders
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.OrderController.Get(System.Guid)">
+            <summary>
+            Get Order by an Id
+            </summary>
+            <param name="id"></param>
+            <returns>Order</returns>
+        </member>
+        <member name="M:RestaurantApi.Controllers.OrderController.CreateOrder(RestaurantApi.Models.OrderDto)">
+            <summary>
+            Creates order for a given date and products
+            </summary>
+            <param name="orderDto"></param>
+            <returns>Order</returns>
+        </member>
+        <member name="T:RestaurantApi.MapperProfiles.ProductProfile">
+            <summary>
+            Mapper for Product entity
+            </summary>
+        </member>
+    </members>
+</doc>
