@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6e9e4e10_002D1362_002D4506_002Db07c_002Db1eceed10f84/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetOrderById_When_IdIsWrong_Return_Null #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::569927D3-5F4A-4B08-B56F-1DF79E2D5306::net6.0::UnitTests.OrderManagerTests.GetOrderById_When_IdIsWrong_Return_Null&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e498e457_002Db789_002D4708_002D80fa_002D35b8879603ff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetOrderById_When_IdIsWrong_Return_Null" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::569927D3-5F4A-4B08-B56F-1DF79E2D5306::net6.0::UnitTests.OrderManagerTests.GetOrderById_When_IdIsWrong_Return_Null&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
